@@ -18,7 +18,7 @@ class MainKtTest {
             amountOfTransferPerMonth = transferPerMonth
         )
 
-        assertEquals(0, result)
+        assertEquals(10, result)
     }
 
     @Test
