@@ -9,7 +9,7 @@ const val LIMIT = 75_000_00
 
 fun main() {
     val result =
-        totalFee(amountOfTransfer = 2_000_00, amountOfTransferPerMonth = 75_000_00, typeCard = TypeCard.Maestro)
+        totalFee(amountOfTransfer = 2_000_00, amountOfTransferPerMonth = 75_000_00, typeCard = TypeCard.Mir)
 
 
     println("Ваша комиссия за перевод составит: $result копеек")
